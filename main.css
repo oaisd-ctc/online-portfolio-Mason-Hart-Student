@@ -1,0 +1,42 @@
+.MasonsPortfolio {
+    background-color: #929292;
+    width: 50vw;
+    height: 70vh;
+    margin-left: 25%;
+    margin-top: 5%;
+    border-radius: 10px;
+}
+
+.Experience, .Certifications, .Aboutme {
+    background-color: #929292;
+    width: 50vw;
+    height: 70vh;
+    margin-left: 25%;
+    margin-top: 5%;
+    border-radius: 10px;
+    display: none;
+}
+.Navbar {
+    width: 100%;
+    background-color: #545454;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.Navbar > h2 {
+    display: inline-block;
+    margin: 0 10px;
+    margin-left: 7%;
+    color: rgb(211, 207, 207);
+    transition: color 0.3s ease;
+}
+.Navbar > h2:hover {
+    cursor: pointer;
+    color: rgb(100, 100, 222);
+}
+
+.title {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 13%;
+}
