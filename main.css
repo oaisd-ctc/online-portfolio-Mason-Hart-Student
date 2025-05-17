@@ -1,3 +1,7 @@
+body {
+    background-color: black;
+}
+
 .MasonsPortfolio {
     background-color: #929292;
     width: 50vw;
@@ -5,6 +9,17 @@
     margin-left: 25%;
     margin-top: 5%;
     border-radius: 10px;
+}
+
+.myImage {
+    margin-top: 15%;
+    margin-left: 10%;
+    width: 25%;
+}
+
+.contactInfo {
+    margin-left: 70%;
+    margin-top: -30%;
 }
 
 .Experience, .Certifications, .Aboutme {
