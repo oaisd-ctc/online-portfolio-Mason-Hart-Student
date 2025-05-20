@@ -11,7 +11,6 @@ body {
     border-radius: 10px;
 }
 
-<<<<<<< Updated upstream
 .myImage {
     margin-top: 15%;
     margin-left: 10%;
@@ -20,16 +19,6 @@ body {
 
 .contactInfo {
     margin-left: 70%;
-=======
-.pic {
-    width: 25%;
-    margin-top: 13%;
-    margin-left: 7%;
-}
-
-.contact {
-    margin-left: 60%;
->>>>>>> Stashed changes
     margin-top: -30%;
 }
 
