@@ -18,7 +18,7 @@ body {
 }
 
 .contactInfo {
-    margin-left: 70%;
+    margin-left: 60%;
     margin-top: -30%;
 }
 
@@ -54,4 +54,9 @@ body {
     left: 50%;
     transform: translateX(-50%);
     top: 13%;
+}
+
+.Navbar > .home {
+    text-decoration: underline;
+    color: rgb(100, 100, 222);
 }
