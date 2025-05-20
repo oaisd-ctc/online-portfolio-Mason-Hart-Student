@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="main.css">
-    <title>Document</title>
+    <title>Mason's Portfolio</title>
 </head>
+
 <body>
     <div class="MasonsPortfolio">
         <div class="Navbar">
@@ -15,7 +17,7 @@
             <h2 onclick="toAbout()">About me</h2>
         </div>
         <h1 class="title">Mason's Portfolio</h1>
-        <img class="myImage" src="myImage.png" alt="Image">
+        <img class="myImage" src="Pictures/myImage.png" alt="Image">
         <div class="contactInfo">
             <h1>Contact Info</h1>
             <h2>Phone Number: (616) 283 - 5742</h2>
@@ -30,6 +32,32 @@
             <h2 onclick="toAbout()">About me</h2>
         </div>
         <h1 class="title">Experience</h1>
+        <div id="main">
+            <h1>Working Calculator using HTML CSS and Js</h1>
+            <input type="text" id="input1">
+            <select id="operator">
+                <option value="+">+</option>
+                <option value="-">-</option>
+                <option value="*">*</option>
+                <option value="/">/</option>
+            </select>
+            <input type="text" id="input2">
+            <button onclick="calculateResult()">Calculate Result</button>
+            <input type="text" id="result" placeholder="Result" disabled>
+        </div>
+        <div class="container">
+            <h2>Decimal Binary Converter</h2>
+            <div class="wrapper">
+                <div class="input-wrapper">
+                    <label for="dec-inp">Decimal:</label>
+                    <input type="number" id="dec-inp" />
+                </div>
+                <div class="input-wrapper">
+                    <label for="bin-inp">Binary:</label>
+                    <input type="number" id="bin-inp" />
+                </div>
+            </div>
+        </div>
     </div>
     <div class="Certifications">
         <div class="Navbar">
@@ -38,7 +66,14 @@
             <h2 class="cert" onclick="toCertifications()">Certifications</h2>
             <h2 onclick="toAbout()">About me</h2>
         </div>
-        <h1 class="title">Certifications</h1>
+        <h1 class="title">My Certifications</h1>
+
+        <h1 class="certList">I have certifications in:</h1>
+        <img class="untity" src="Pictures/unity.png" alt="unity">
+        <h1 class="certs">Unity</h1>
+
+        <img class="htmlcss" src="Pictures/htmlcss.png" alt="HTML and CSS">
+        <h1 class="certs2">HTML and CSS</h1>
     </div>
     <div class="Aboutme">
         <div class="Navbar">
@@ -48,12 +83,18 @@
             <h2 class="about" onclick="toAbout()">About me</h2>
         </div>
         <h1 class="title">About Me</h1>
+
+        <h1 class="about">Hello, My name is Mason Hart, I am a junior at Holland High School. I play tennis, I do
+            theater, and I will be doing volleyball. In my free time I like to listen to music, make roblox games
+            (sometimes) and play video games. I have been programming for 6 months, started with HTML and CSS, learned
+            javascript a month after that, and then started with C#.</h1>
+        <img class="comedy" src="Pictures/theater.png" alt="Comedy and Tragedy Masks">
+        <img class="tennis" src="Pictures/tennis.png" alt="Tennis">
     </div>
 </body>
 
 <script src="main.js"></script>
+<script src="calculator.js"></script>
+<script src="binary.js"></script>
+
 </html>
-
-
-
-
